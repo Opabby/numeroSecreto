@@ -1,7 +1,17 @@
-const numeroSecreto = gerarNumeroAleatorio();
+const sorteio = gerarNumeroAleatorio();
 
 function gerarNumeroAleatorio() {
-    return parseInt(Math.random() * 100)
+    const maiorValor = 100;
+    const menorValor = 0;
+
+    const elementoMenorValor = document.getElementById('menor-valor');
+    elementoMenorValor.innerHTML = menorValor;
+
+    const elementoMaiorValor = document.getElementById('maior-valor');
+    elementoMaiorValor.innerHTML = maiorValor;
+
+    
+    return parseInt(Math.random() * ( (maiorValor+1) - menorValor ) + menorValor)
 }
 
-console.log("Número secreto: ", numeroSecreto)
+console.log('Número secreto: ', sorteio);
