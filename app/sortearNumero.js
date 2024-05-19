@@ -11,5 +11,5 @@ function gerarNumeroAleatorio() {
       return parseInt(Math.random() * ( (maiorValor+1) - menorValor ) + menorValor)
 }
 
-const sorteio = gerarNumeroAleatorio();
-console.log('Número secreto: ', sorteio);
+const numeroSecreto = gerarNumeroAleatorio();
+console.log('Número secreto: ', numeroSecreto);
