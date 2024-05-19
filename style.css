@@ -2,13 +2,12 @@
 
 :root {
     --font-family: 'Montserrat', sans-serif;
-    --bg-color: #7AB2B2;
-    --primary-color: #EEF7FF;
-    --alternative-1: #570A57;
-    --alternative-2: #F806CC;
+    --bg-color: #6F61C0;
+    --primary-color: #D5FFE4;
 }
 
 body {
     background-color: var(--bg-color);
     color: var(--primary-color);
+    font-size: 50px;
 }
