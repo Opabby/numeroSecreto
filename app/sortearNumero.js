@@ -1,7 +1,7 @@
 const sorteio = gerarNumeroAleatorio();
 
 function gerarNumeroAleatorio() {
-    const maiorValor = 100;
+    const maiorValor = 1000;
     const menorValor = 0;
 
     const elementoMenorValor = document.getElementById('menor-valor');
